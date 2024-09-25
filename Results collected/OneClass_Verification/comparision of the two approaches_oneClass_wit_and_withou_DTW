@@ -1,0 +1,42 @@
+Summary of Results
+Scikit-Learn Only Approach
+The results from the scikit-learn only approach highlight the varying performance of different models across multiple users. 
+The One-Class SVM generally demonstrated high accuracy (98% for most users) but showed a poor ROC AUC score of 0.70, indicating limited discriminative ability. 
+This is evident from the consistent precision and recall for both true positives and false positives, suggesting that the model often fails to differentiate between outliers and inliers.
+
+The Isolation Forest model had a broader range of performance. For some users, it achieved high accuracy and ROC AUC scores (up to 98.78% accuracy and 0.95 ROC AUC), while for others, 
+it performed poorly (accuracy as low as 29.72% and ROC AUC around 0.59). This inconsistency indicates that the Isolation Forest model's effectiveness heavily depends on the dataset's characteristics and
+ user-specific data.
+
+The Local Outlier Factor (LOF) model generally performed well, with accuracy often above 90% and ROC AUC scores around 0.92. 
+This model showed better precision and recall balance, especially for detecting outliers (with recall rates often above 0.90), making it a reliable choice for outlier detection in many cases.
+
+Scikit-Learn and DTW Approach
+Introducing Dynamic Time Warping (DTW) with scikit-learn algorithms provided improved results in many cases. 
+The Isolation Forest model, when combined with DTW, showed improved accuracy (up to 99.26%) and ROC AUC scores, demonstrating enhanced discriminative ability compared to using scikit-learn alone.
+The precision and recall metrics improved significantly, indicating a better ability to correctly identify true positives while minimizing false positives.
+
+The Local Outlier Factor combined with DTW also showed robust performance, with accuracy reaching up to 99.26% and high ROC AUC scores. 
+This combination consistently provided a better balance between precision and recall, making it more effective in identifying true outliers.
+
+The One-Class SVM, however, did not benefit significantly from the integration of DTW. 
+The accuracy remained high, but the ROC AUC score did not show considerable improvement, suggesting that DTW does not enhance the One-Class SVM's ability to distinguish between classes effectively.
+
+Comparison and Contrast
+Accuracy and ROC AUC: The integration of DTW generally improved the accuracy and ROC AUC scores for both Isolation Forest and LOF models. 
+This enhancement indicates that DTW helps in better aligning sequences, making the models more effective in capturing temporal patterns and anomalies.
+
+Model Consistency: The results from the scikit-learn only approach were more inconsistent, particularly with the Isolation Forest model, where performance varied significantly across users. 
+The addition of DTW helped stabilize these results, providing more consistent and reliable performance.
+
+Precision and Recall: The precision and recall metrics improved notably for the Isolation Forest and LOF models with DTW, indicating better true positive rates and reduced false positive rates. 
+This improvement highlights the effectiveness of DTW in enhancing the models' sensitivity to actual outliers.
+
+One-Class SVM Performance: The One-Class SVM's performance remained relatively unchanged with the addition of DTW, suggesting that DTW does not significantly impact this model's effectiveness. 
+The high accuracy but low ROC AUC score indicates that while the model can correctly identify inliers, it struggles with correctly identifying outliers.
+
+Conclusion
+The combination of DTW with scikit-learn models generally improves the performance of outlier detection algorithms, particularly for Isolation Forest and LOF models. 
+These improvements are reflected in higher accuracy, better ROC AUC scores, and more balanced precision and recall metrics. However, the One-Class SVM model does not 
+benefit significantly from DTW integration, highlighting that the choice of model and its combination with DTW should be carefully considered based on 
+the specific application and data characteristics.
