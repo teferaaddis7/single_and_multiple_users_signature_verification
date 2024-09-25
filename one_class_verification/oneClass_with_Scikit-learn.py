@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.svm import OneClassSVM
+from sklearn.ensemble import IsolationForest
+from sklearn.neighbors import LocalOutlierFactor
 from sklearn.metrics import confusion_matrix, accuracy_score, classification_report, roc_auc_score
 
 # Load the dataset
@@ -38,40 +40,53 @@ for target_user in range(n_users):
     # Extract samples of the target user for training
     X_train_target = X[y == target_user]
 
-    # Initialize and train the One-Class SVM
+    # Initialize models
     oc_svm = OneClassSVM(kernel='rbf', gamma='auto', nu=0.1)
-    oc_svm.fit(X_train_target)
+    iso_forest = IsolationForest(contamination=0.1, random_state=42)
+    lof = LocalOutlierFactor(n_neighbors=20, novelty=True, contamination=0.1)
+    
+    models = {
+        "One-Class SVM": oc_svm,
+        "Isolation Forest": iso_forest,
+        "Local Outlier Factor": lof
+    }
+    
+    for model_name, model in models.items():
+        # Train the model
+        model.fit(X_train_target)
 
-    # Test against all samples
-    y_pred = oc_svm.predict(X)
-    
-    # Convert One-Class SVM output to binary labels
-    y_pred_binary = np.where(y_pred == 1, target_user, -1)
-    
-    # Evaluate the model for the current target user
-    accuracy = accuracy_score(y == target_user, y_pred_binary == target_user)
-    roc_auc = roc_auc_score(y == target_user, y_pred)
-    cm = confusion_matrix(y == target_user, y_pred_binary == target_user)
-    class_report = classification_report(y == target_user, y_pred_binary == target_user, output_dict=True)
-    
-    results.append({
-        "target_user": target_user,
-        "accuracy": accuracy,
-        "roc_auc": roc_auc,
-        "confusion_matrix": cm,
-        "classification_report": class_report
-    })
+        # Test against all samples
+        y_pred = model.predict(X)
+        
+        # Convert model output to binary labels
+        y_pred_binary = np.where(y_pred == 1, target_user, -1) if model_name != "Local Outlier Factor" else np.where(y_pred == 1, target_user, -1)
 
-    print(f"User {target_user}: One-Class SVM Accuracy: {accuracy*100:.2f}%")
-    print(f"User {target_user}: One-Class SVM ROC AUC: {roc_auc:.2f}")
-    print(f"User {target_user}: One-Class SVM Classification Report:")
-    print(pd.DataFrame(class_report).transpose())
-    print(f"User {target_user}: One-Class SVM Confusion Matrix:")
-    plot_confusion_matrix(cm, classes=['Non-Target', 'Target'])
+        # Evaluate the model for the current target user
+        accuracy = accuracy_score(y == target_user, y_pred_binary == target_user)
+        roc_auc = roc_auc_score(y == target_user, y_pred)
+        cm = confusion_matrix(y == target_user, y_pred_binary == target_user)
+        class_report = classification_report(y == target_user, y_pred_binary == target_user, output_dict=True)
+
+        results.append({
+            "target_user": target_user,
+            "model": model_name,
+            "accuracy": accuracy,
+            "roc_auc": roc_auc,
+            "confusion_matrix": cm,
+            "classification_report": class_report
+        })
+
+        print(f"User {target_user} - {model_name}: One-Class SVM Accuracy: {accuracy*100:.2f}%")
+        print(f"User {target_user} - {model_name}: One-Class SVM ROC AUC: {roc_auc:.2f}")
+        print(f"User {target_user} - {model_name}: One-Class SVM Classification Report:")
+        print(pd.DataFrame(class_report).transpose())
+        print(f"User {target_user} - {model_name}: One-Class SVM Confusion Matrix:")
+        plot_confusion_matrix(cm, classes=['Non-Target', 'Target'])
 
 # Print summary results
 for result in results:
-    print(f"User {result['target_user']}: One-Class SVM Accuracy: {result['accuracy']*100:.2f}%")
-    print(f"User {result['target_user']}: One-Class SVM ROC AUC: {result['roc_auc']:.2f}")
+    print(f"User {result['target_user']} - {result['model']}: One-Class SVM Accuracy: {result['accuracy']*100:.2f}%")
+    print(f"User {result['target_user']} - {result['model']}: One-Class SVM ROC AUC: {result['roc_auc']:.2f}")
     print(pd.DataFrame(result['classification_report']).transpose())
     print(result['confusion_matrix'])
+
