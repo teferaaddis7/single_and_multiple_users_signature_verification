@@ -1,0 +1,890 @@
+User 0 - Isolation Forest: One-Class SVM Accuracy: 38.33%
+User 0 - Isolation Forest: One-Class SVM ROC AUC: 0.63
+              precision    recall  f1-score      support
+False          0.990654  0.365517  0.534005  1740.000000
+True           0.046632  0.900000  0.088670    60.000000
+accuracy       0.383333  0.383333  0.383333     0.383333
+macro avg      0.518643  0.632759  0.311337  1800.000000
+weighted avg   0.959187  0.383333  0.519161  1800.000000
+[[ 636 1104]
+ [   6   54]]
+User 0 - Local Outlier Factor: One-Class SVM Accuracy: 92.94%
+User 0 - Local Outlier Factor: One-Class SVM ROC AUC: 0.92
+              precision    recall  f1-score      support
+False          0.996919  0.929885  0.962236  1740.000000
+True           0.310734  0.916667  0.464135    60.000000
+accuracy       0.929444  0.929444  0.929444     0.929444
+macro avg      0.653827  0.923276  0.713186  1800.000000
+weighted avg   0.974046  0.929444  0.945633  1800.000000
+[[1618  122]
+ [   5   55]]
+User 1 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 1 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 1 - Isolation Forest: One-Class SVM Accuracy: 98.78%
+User 1 - Isolation Forest: One-Class SVM ROC AUC: 0.95
+              precision    recall  f1-score      support
+False          0.996532  0.990805  0.993660  1740.000000
+True           0.771429  0.900000  0.830769    60.000000
+accuracy       0.987778  0.987778  0.987778     0.987778
+macro avg      0.883980  0.945402  0.912215  1800.000000
+weighted avg   0.989028  0.987778  0.988230  1800.000000
+[[1724   16]
+ [   6   54]]
+User 1 - Local Outlier Factor: One-Class SVM Accuracy: 91.67%
+User 1 - Local Outlier Factor: One-Class SVM ROC AUC: 0.91
+              precision    recall  f1-score      support
+False          0.996255  0.917241  0.955117  1740.000000
+True           0.272727  0.900000  0.418605    60.000000
+accuracy       0.916667  0.916667  0.916667     0.916667
+macro avg      0.634491  0.908621  0.686861  1800.000000
+weighted avg   0.972137  0.916667  0.937233  1800.000000
+[[1596  144]
+ [   6   54]]
+User 2 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 2 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 2 - Isolation Forest: One-Class SVM Accuracy: 29.72%
+User 2 - Isolation Forest: One-Class SVM ROC AUC: 0.59
+              precision    recall  f1-score      support
+False          0.987680  0.276437  0.431971  1740.000000
+True           0.041127  0.900000  0.078660    60.000000
+accuracy       0.297222  0.297222  0.297222     0.297222
+macro avg      0.514403  0.588218  0.255316  1800.000000
+weighted avg   0.956128  0.297222  0.420194  1800.000000
+[[ 481 1259]
+ [   6   54]]
+User 2 - Local Outlier Factor: One-Class SVM Accuracy: 96.78%
+User 2 - Local Outlier Factor: One-Class SVM ROC AUC: 0.94
+              precision    recall  f1-score      support
+False          0.996458  0.970115  0.983110  1740.000000
+True           0.509434  0.900000  0.650602    60.000000
+accuracy       0.967778  0.967778  0.967778     0.967778
+macro avg      0.752946  0.935057  0.816856  1800.000000
+weighted avg   0.980224  0.967778  0.972026  1800.000000
+[[1688   52]
+ [   6   54]]
+User 3 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 3 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 3 - Isolation Forest: One-Class SVM Accuracy: 50.44%
+User 3 - Isolation Forest: One-Class SVM ROC AUC: 0.70
+              precision    recall  f1-score      support
+False          0.993023  0.490805  0.656923  1740.000000
+True           0.057447  0.900000  0.108000    60.000000
+accuracy       0.504444  0.504444  0.504444     0.504444
+macro avg      0.525235  0.695402  0.382462  1800.000000
+weighted avg   0.961837  0.504444  0.638626  1800.000000
+[[854 886]
+ [  6  54]]
+User 3 - Local Outlier Factor: One-Class SVM Accuracy: 92.06%
+User 3 - Local Outlier Factor: One-Class SVM ROC AUC: 0.93
+              precision    recall  f1-score      support
+False          0.998129  0.919540  0.957224  1740.000000
+True           0.289340  0.950000  0.443580    60.000000
+accuracy       0.920556  0.920556  0.920556     0.920556
+macro avg      0.643734  0.934770  0.700402  1800.000000
+weighted avg   0.974502  0.920556  0.940103  1800.000000
+[[1600  140]
+ [   3   57]]
+User 4 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 4 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 4 - Isolation Forest: One-Class SVM Accuracy: 92.56%
+User 4 - Isolation Forest: One-Class SVM ROC AUC: 0.91
+              precision    recall  f1-score      support
+False          0.996292  0.926437  0.960095  1740.000000
+True           0.296703  0.900000  0.446281    60.000000
+accuracy       0.925556  0.925556  0.925556     0.925556
+macro avg      0.646498  0.913218  0.703188  1800.000000
+weighted avg   0.972972  0.925556  0.942968  1800.000000
+[[1612  128]
+ [   6   54]]
+User 4 - Local Outlier Factor: One-Class SVM Accuracy: 63.11%
+User 4 - Local Outlier Factor: One-Class SVM ROC AUC: 0.78
+              precision    recall  f1-score      support
+False          0.996310  0.620690  0.764873  1740.000000
+True           0.078212  0.933333  0.144330    60.000000
+accuracy       0.631111  0.631111  0.631111     0.631111
+macro avg      0.537261  0.777011  0.454601  1800.000000
+weighted avg   0.965707  0.631111  0.744188  1800.000000
+[[1080  660]
+ [   4   56]]
+User 5 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 5 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 5 - Isolation Forest: One-Class SVM Accuracy: 94.67%
+User 5 - Isolation Forest: One-Class SVM ROC AUC: 0.92
+              precision    recall  f1-score      support
+False          0.996377  0.948276  0.971731  1740.000000
+True           0.375000  0.900000  0.529412    60.000000
+accuracy       0.946667  0.946667  0.946667     0.946667
+macro avg      0.685688  0.924138  0.750572  1800.000000
+weighted avg   0.975664  0.946667  0.956987  1800.000000
+[[1650   90]
+ [   6   54]]
+User 5 - Local Outlier Factor: One-Class SVM Accuracy: 99.22%
+User 5 - Local Outlier Factor: One-Class SVM ROC AUC: 0.95
+              precision    recall  f1-score      support
+False          0.996548  0.995402  0.995975  1740.000000
+True           0.870968  0.900000  0.885246    60.000000
+accuracy       0.992222  0.992222  0.992222     0.992222
+macro avg      0.933758  0.947701  0.940610  1800.000000
+weighted avg   0.992362  0.992222  0.992284  1800.000000
+[[1732    8]
+ [   6   54]]
+User 6 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 6 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 6 - Isolation Forest: One-Class SVM Accuracy: 91.00%
+User 6 - Isolation Forest: One-Class SVM ROC AUC: 0.91
+              precision    recall  f1-score  support
+False          0.996226  0.910345  0.951351  1740.00
+True           0.257143  0.900000  0.400000    60.00
+accuracy       0.910000  0.910000  0.910000     0.91
+macro avg      0.626685  0.905172  0.675676  1800.00
+weighted avg   0.971590  0.910000  0.932973  1800.00
+[[1584  156]
+ [   6   54]]
+User 6 - Local Outlier Factor: One-Class SVM Accuracy: 76.39%
+User 6 - Local Outlier Factor: One-Class SVM ROC AUC: 0.83
+              precision    recall  f1-score      support
+False          0.995479  0.759195  0.861428  1740.000000
+True           0.114165  0.900000  0.202627    60.000000
+accuracy       0.763889  0.763889  0.763889     0.763889
+macro avg      0.554822  0.829598  0.532027  1800.000000
+weighted avg   0.966101  0.763889  0.839468  1800.000000
+[[1321  419]
+ [   6   54]]
+User 7 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 7 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 7 - Isolation Forest: One-Class SVM Accuracy: 57.06%
+User 7 - Isolation Forest: One-Class SVM ROC AUC: 0.73
+              precision    recall  f1-score      support
+False          0.993871  0.559195  0.715704  1740.000000
+True           0.065773  0.900000  0.122588    60.000000
+accuracy       0.570556  0.570556  0.570556     0.570556
+macro avg      0.529822  0.729598  0.419146  1800.000000
+weighted avg   0.962935  0.570556  0.695934  1800.000000
+[[973 767]
+ [  6  54]]
+User 7 - Local Outlier Factor: One-Class SVM Accuracy: 96.17%
+User 7 - Local Outlier Factor: One-Class SVM ROC AUC: 0.95
+              precision    recall  f1-score      support
+False          0.997618  0.962644  0.979819  1740.000000
+True           0.462810  0.933333  0.618785    60.000000
+accuracy       0.961667  0.961667  0.961667     0.961667
+macro avg      0.730214  0.947989  0.799302  1800.000000
+weighted avg   0.979791  0.961667  0.967784  1800.000000
+[[1675   65]
+ [   4   56]]
+User 8 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 8 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 8 - Isolation Forest: One-Class SVM Accuracy: 88.56%
+User 8 - Isolation Forest: One-Class SVM ROC AUC: 0.89
+              precision    recall  f1-score      support
+False          0.996119  0.885057  0.937310  1740.000000
+True           0.212598  0.900000  0.343949    60.000000
+accuracy       0.885556  0.885556  0.885556     0.885556
+macro avg      0.604359  0.892529  0.640629  1800.000000
+weighted avg   0.970002  0.885556  0.917531  1800.000000
+[[1540  200]
+ [   6   54]]
+User 8 - Local Outlier Factor: One-Class SVM Accuracy: 83.89%
+User 8 - Local Outlier Factor: One-Class SVM ROC AUC: 0.87
+              precision    recall  f1-score      support
+False          0.995896  0.836782  0.909432  1740.000000
+True           0.159763  0.900000  0.271357    60.000000
+accuracy       0.838889  0.838889  0.838889     0.838889
+macro avg      0.577830  0.868391  0.590394  1800.000000
+weighted avg   0.968025  0.838889  0.888162  1800.000000
+[[1456  284]
+ [   6   54]]
+User 9 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 9 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 9 - Isolation Forest: One-Class SVM Accuracy: 90.11%
+User 9 - Isolation Forest: One-Class SVM ROC AUC: 0.90
+              precision    recall  f1-score      support
+False          0.996188  0.901149  0.946288  1740.000000
+True           0.238938  0.900000  0.377622    60.000000
+accuracy       0.901111  0.901111  0.901111     0.901111
+macro avg      0.617563  0.900575  0.661955  1800.000000
+weighted avg   0.970946  0.901111  0.927333  1800.000000
+[[1568  172]
+ [   6   54]]
+User 9 - Local Outlier Factor: One-Class SVM Accuracy: 99.22%
+User 9 - Local Outlier Factor: One-Class SVM ROC AUC: 0.96
+              precision    recall  f1-score      support
+False          0.997120  0.994828  0.995972  1740.000000
+True           0.859375  0.916667  0.887097    60.000000
+accuracy       0.992222  0.992222  0.992222     0.992222
+macro avg      0.928247  0.955747  0.941535  1800.000000
+weighted avg   0.992528  0.992222  0.992343  1800.000000
+[[1731    9]
+ [   5   55]]
+User 10 - One-Class SVM: One-Class SVM Accuracy: 97.67%
+User 10 - One-Class SVM: One-Class SVM ROC AUC: 0.65
+              precision    recall  f1-score      support
+False          0.976431  1.000000  0.988075  1740.000000
+True           1.000000  0.300000  0.461538    60.000000
+accuracy       0.976667  0.976667  0.976667     0.976667
+macro avg      0.988215  0.650000  0.724807  1800.000000
+weighted avg   0.977217  0.976667  0.970524  1800.000000
+[[1740    0]
+ [  42   18]]
+User 10 - Isolation Forest: One-Class SVM Accuracy: 69.17%
+User 10 - Isolation Forest: One-Class SVM ROC AUC: 0.79
+              precision    recall  f1-score      support
+False          0.994987  0.684483  0.811032  1740.000000
+True           0.089552  0.900000  0.162896    60.000000
+accuracy       0.691667  0.691667  0.691667     0.691667
+macro avg      0.542270  0.792241  0.486964  1800.000000
+weighted avg   0.964806  0.691667  0.789427  1800.000000
+[[1191  549]
+ [   6   54]]
+User 10 - Local Outlier Factor: One-Class SVM Accuracy: 97.61%
+User 10 - Local Outlier Factor: One-Class SVM ROC AUC: 0.94
+              precision    recall  f1-score      support
+False          0.996489  0.978736  0.987533  1740.000000
+True           0.593407  0.900000  0.715232    60.000000
+accuracy       0.976111  0.976111  0.976111     0.976111
+macro avg      0.794948  0.939368  0.851382  1800.000000
+weighted avg   0.983053  0.976111  0.978456  1800.000000
+[[1703   37]
+ [   6   54]]
+User 11 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 11 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 11 - Isolation Forest: One-Class SVM Accuracy: 83.78%
+User 11 - Isolation Forest: One-Class SVM ROC AUC: 0.87
+              precision    recall  f1-score      support
+False          0.995890  0.835632  0.908750  1740.000000
+True           0.158824  0.900000  0.270000    60.000000
+accuracy       0.837778  0.837778  0.837778     0.837778
+macro avg      0.577357  0.867816  0.589375  1800.000000
+weighted avg   0.967988  0.837778  0.887458  1800.000000
+[[1454  286]
+ [   6   54]]
+User 11 - Local Outlier Factor: One-Class SVM Accuracy: 99.72%
+User 11 - Local Outlier Factor: One-Class SVM ROC AUC: 0.97
+              precision    recall  f1-score      support
+False          0.997705  0.999425  0.998564  1740.000000
+True           0.982456  0.933333  0.957265    60.000000
+accuracy       0.997222  0.997222  0.997222     0.997222
+macro avg      0.990081  0.966379  0.977915  1800.000000
+weighted avg   0.997197  0.997222  0.997188  1800.000000
+[[1739    1]
+ [   4   56]]
+User 12 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 12 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 12 - Isolation Forest: One-Class SVM Accuracy: 94.89%
+User 12 - Isolation Forest: One-Class SVM ROC AUC: 0.93
+              precision    recall  f1-score      support
+False          0.996386  0.950575  0.972941  1740.000000
+True           0.385714  0.900000  0.540000    60.000000
+accuracy       0.948889  0.948889  0.948889     0.948889
+macro avg      0.691050  0.925287  0.756471  1800.000000
+weighted avg   0.976030  0.948889  0.958510  1800.000000
+[[1654   86]
+ [   6   54]]
+User 12 - Local Outlier Factor: One-Class SVM Accuracy: 98.78%
+User 12 - Local Outlier Factor: One-Class SVM ROC AUC: 0.95
+              precision    recall  f1-score      support
+False          0.997106  0.990230  0.993656  1740.000000
+True           0.763889  0.916667  0.833333    60.000000
+accuracy       0.987778  0.987778  0.987778     0.987778
+macro avg      0.880498  0.953448  0.913495  1800.000000
+weighted avg   0.989333  0.987778  0.988312  1800.000000
+[[1723   17]
+ [   5   55]]
+User 13 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 13 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 13 - Isolation Forest: One-Class SVM Accuracy: 89.22%
+User 13 - Isolation Forest: One-Class SVM ROC AUC: 0.90
+              precision    recall  f1-score      support
+False          0.996149  0.891954  0.941176  1740.000000
+True           0.223140  0.900000  0.357616    60.000000
+accuracy       0.892222  0.892222  0.892222     0.892222
+macro avg      0.609645  0.895977  0.649396  1800.000000
+weighted avg   0.970382  0.892222  0.921724  1800.000000
+[[1552  188]
+ [   6   54]]
+User 13 - Local Outlier Factor: One-Class SVM Accuracy: 97.17%
+User 13 - Local Outlier Factor: One-Class SVM ROC AUC: 0.94
+              precision    recall  f1-score      support
+False          0.996473  0.974138  0.985179  1740.000000
+True           0.545455  0.900000  0.679245    60.000000
+accuracy       0.971667  0.971667  0.971667     0.971667
+macro avg      0.770964  0.937069  0.832212  1800.000000
+weighted avg   0.981439  0.971667  0.974981  1800.000000
+[[1695   45]
+ [   6   54]]
+User 14 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 14 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 14 - Isolation Forest: One-Class SVM Accuracy: 95.56%
+User 14 - Isolation Forest: One-Class SVM ROC AUC: 0.93
+              precision    recall  f1-score      support
+False          0.996411  0.957471  0.976553  1740.000000
+True           0.421875  0.900000  0.574468    60.000000
+accuracy       0.955556  0.955556  0.955556     0.955556
+macro avg      0.709143  0.928736  0.775511  1800.000000
+weighted avg   0.977260  0.955556  0.963150  1800.000000
+[[1666   74]
+ [   6   54]]
+User 14 - Local Outlier Factor: One-Class SVM Accuracy: 99.50%
+User 14 - Local Outlier Factor: One-Class SVM ROC AUC: 0.96
+              precision    recall  f1-score   support
+False          0.997128  0.997701  0.997415  1740.000
+True           0.932203  0.916667  0.924370    60.000
+accuracy       0.995000  0.995000  0.995000     0.995
+macro avg      0.964666  0.957184  0.960892  1800.000
+weighted avg   0.994964  0.995000  0.994980  1800.000
+[[1736    4]
+ [   5   55]]
+User 15 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 15 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 15 - Isolation Forest: One-Class SVM Accuracy: 98.56%
+User 15 - Isolation Forest: One-Class SVM ROC AUC: 0.94
+              precision    recall  f1-score      support
+False          0.996524  0.988506  0.992499  1740.000000
+True           0.729730  0.900000  0.805970    60.000000
+accuracy       0.985556  0.985556  0.985556     0.985556
+macro avg      0.863127  0.944253  0.899234  1800.000000
+weighted avg   0.987631  0.985556  0.986281  1800.000000
+[[1720   20]
+ [   6   54]]
+User 15 - Local Outlier Factor: One-Class SVM Accuracy: 98.67%
+User 15 - Local Outlier Factor: One-Class SVM ROC AUC: 0.96
+              precision    recall  f1-score      support
+False          0.997680  0.988506  0.993072  1740.000000
+True           0.736842  0.933333  0.823529    60.000000
+accuracy       0.986667  0.986667  0.986667     0.986667
+macro avg      0.867261  0.960920  0.908301  1800.000000
+weighted avg   0.988985  0.986667  0.987420  1800.000000
+[[1720   20]
+ [   4   56]]
+User 16 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 16 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 16 - Isolation Forest: One-Class SVM Accuracy: 90.33%
+User 16 - Isolation Forest: One-Class SVM ROC AUC: 0.90
+              precision    recall  f1-score      support
+False          0.996198  0.903448  0.947559  1740.000000
+True           0.243243  0.900000  0.382979    60.000000
+accuracy       0.903333  0.903333  0.903333     0.903333
+macro avg      0.619720  0.901724  0.665269  1800.000000
+weighted avg   0.971099  0.903333  0.928739  1800.000000
+[[1572  168]
+ [   6   54]]
+User 16 - Local Outlier Factor: One-Class SVM Accuracy: 97.22%
+User 16 - Local Outlier Factor: One-Class SVM ROC AUC: 0.95
+              precision    recall  f1-score      support
+False          0.997059  0.974138  0.985465  1740.000000
+True           0.550000  0.916667  0.687500    60.000000
+accuracy       0.972222  0.972222  0.972222     0.972222
+macro avg      0.773529  0.945402  0.836483  1800.000000
+weighted avg   0.982157  0.972222  0.975533  1800.000000
+[[1695   45]
+ [   5   55]]
+User 17 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 17 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 17 - Isolation Forest: One-Class SVM Accuracy: 51.72%
+User 17 - Isolation Forest: One-Class SVM ROC AUC: 0.70
+              precision    recall  f1-score      support
+False          0.993205  0.504023  0.668700  1740.000000
+True           0.058888  0.900000  0.110542    60.000000
+accuracy       0.517222  0.517222  0.517222     0.517222
+macro avg      0.526046  0.702011  0.389621  1800.000000
+weighted avg   0.962061  0.517222  0.650095  1800.000000
+[[877 863]
+ [  6  54]]
+User 17 - Local Outlier Factor: One-Class SVM Accuracy: 96.50%
+User 17 - Local Outlier Factor: One-Class SVM ROC AUC: 0.94
+              precision    recall  f1-score   support
+False          0.997036  0.966667  0.981617  1740.000
+True           0.486726  0.916667  0.635838    60.000
+accuracy       0.965000  0.965000  0.965000     0.965
+macro avg      0.741881  0.941667  0.808727  1800.000
+weighted avg   0.980026  0.965000  0.970091  1800.000
+[[1682   58]
+ [   5   55]]
+User 18 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 18 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 18 - Isolation Forest: One-Class SVM Accuracy: 29.56%
+User 18 - Isolation Forest: One-Class SVM ROC AUC: 0.59
+              precision    recall  f1-score      support
+False          0.987603  0.274713  0.429856  1740.000000
+True           0.041033  0.900000  0.078488    60.000000
+accuracy       0.295556  0.295556  0.295556     0.295556
+macro avg      0.514318  0.587356  0.254172  1800.000000
+weighted avg   0.956051  0.295556  0.418144  1800.000000
+[[ 478 1262]
+ [   6   54]]
+User 18 - Local Outlier Factor: One-Class SVM Accuracy: 52.00%
+User 18 - Local Outlier Factor: One-Class SVM ROC AUC: 0.70
+              precision    recall  f1-score  support
+False          0.993243  0.506897  0.671233  1740.00
+True           0.059211  0.900000  0.111111    60.00
+accuracy       0.520000  0.520000  0.520000     0.52
+macro avg      0.526227  0.703448  0.391172  1800.00
+weighted avg   0.962109  0.520000  0.652562  1800.00
+[[882 858]
+ [  6  54]]
+User 19 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 19 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 19 - Isolation Forest: One-Class SVM Accuracy: 89.83%
+User 19 - Isolation Forest: One-Class SVM ROC AUC: 0.90
+              precision    recall  f1-score      support
+False          0.996176  0.898276  0.944696  1740.000000
+True           0.233766  0.900000  0.371134    60.000000
+accuracy       0.898333  0.898333  0.898333     0.898333
+macro avg      0.614971  0.899138  0.657915  1800.000000
+weighted avg   0.970762  0.898333  0.925578  1800.000000
+[[1563  177]
+ [   6   54]]
+User 19 - Local Outlier Factor: One-Class SVM Accuracy: 69.28%
+User 19 - Local Outlier Factor: One-Class SVM ROC AUC: 0.79
+              precision    recall  f1-score      support
+False          0.994996  0.685632  0.811841  1740.000000
+True           0.089850  0.900000  0.163389    60.000000
+accuracy       0.692778  0.692778  0.692778     0.692778
+macro avg      0.542423  0.792816  0.487615  1800.000000
+weighted avg   0.964824  0.692778  0.790226  1800.000000
+[[1193  547]
+ [   6   54]]
+User 20 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 20 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 20 - Isolation Forest: One-Class SVM Accuracy: 90.56%
+User 20 - Isolation Forest: One-Class SVM ROC AUC: 0.90
+              precision    recall  f1-score      support
+False          0.996207  0.905747  0.948826  1740.000000
+True           0.247706  0.900000  0.388489    60.000000
+accuracy       0.905556  0.905556  0.905556     0.905556
+macro avg      0.621957  0.902874  0.668658  1800.000000
+weighted avg   0.971257  0.905556  0.930148  1800.000000
+[[1576  164]
+ [   6   54]]
+User 20 - Local Outlier Factor: One-Class SVM Accuracy: 93.78%
+User 20 - Local Outlier Factor: One-Class SVM ROC AUC: 0.92
+              precision    recall  f1-score      support
+False          0.996341  0.939080  0.966864  1740.000000
+True           0.337500  0.900000  0.490909    60.000000
+accuracy       0.937778  0.937778  0.937778     0.937778
+macro avg      0.666921  0.919540  0.728886  1800.000000
+weighted avg   0.974380  0.937778  0.950999  1800.000000
+[[1634  106]
+ [   6   54]]
+User 21 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 21 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 21 - Isolation Forest: One-Class SVM Accuracy: 93.94%
+User 21 - Isolation Forest: One-Class SVM ROC AUC: 0.92
+              precision    recall  f1-score      support
+False          0.996348  0.940805  0.967780  1740.000000
+True           0.343949  0.900000  0.497696    60.000000
+accuracy       0.939444  0.939444  0.939444     0.939444
+macro avg      0.670149  0.920402  0.732738  1800.000000
+weighted avg   0.974602  0.939444  0.952111  1800.000000
+[[1637  103]
+ [   6   54]]
+User 21 - Local Outlier Factor: One-Class SVM Accuracy: 96.56%
+User 21 - Local Outlier Factor: One-Class SVM ROC AUC: 0.95
+              precision    recall  f1-score      support
+False          0.997628  0.966667  0.981903  1740.000000
+True           0.491228  0.933333  0.643678    60.000000
+accuracy       0.965556  0.965556  0.965556     0.965556
+macro avg      0.744428  0.950000  0.812791  1800.000000
+weighted avg   0.980748  0.965556  0.970629  1800.000000
+[[1682   58]
+ [   4   56]]
+User 22 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 22 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 22 - Isolation Forest: One-Class SVM Accuracy: 87.50%
+User 22 - Isolation Forest: One-Class SVM ROC AUC: 0.89
+              precision    recall  f1-score   support
+False          0.996071  0.874138  0.931129  1740.000
+True           0.197802  0.900000  0.324324    60.000
+accuracy       0.875000  0.875000  0.875000     0.875
+macro avg      0.596936  0.887069  0.627727  1800.000
+weighted avg   0.969462  0.875000  0.910903  1800.000
+[[1521  219]
+ [   6   54]]
+User 22 - Local Outlier Factor: One-Class SVM Accuracy: 93.33%
+User 22 - Local Outlier Factor: One-Class SVM ROC AUC: 0.94
+              precision    recall  f1-score      support
+False          0.998155  0.932759  0.964349  1740.000000
+True           0.327586  0.950000  0.487179    60.000000
+accuracy       0.933333  0.933333  0.933333     0.933333
+macro avg      0.662871  0.941379  0.725764  1800.000000
+weighted avg   0.975803  0.933333  0.948444  1800.000000
+[[1623  117]
+ [   3   57]]
+User 23 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 23 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 23 - Isolation Forest: One-Class SVM Accuracy: 80.22%
+User 23 - Isolation Forest: One-Class SVM ROC AUC: 0.85
+              precision    recall  f1-score      support
+False          0.995702  0.798851  0.886480  1740.000000
+True           0.133663  0.900000  0.232759    60.000000
+accuracy       0.802222  0.802222  0.802222     0.802222
+macro avg      0.564683  0.849425  0.559619  1800.000000
+weighted avg   0.966967  0.802222  0.864689  1800.000000
+[[1390  350]
+ [   6   54]]
+User 23 - Local Outlier Factor: One-Class SVM Accuracy: 95.78%
+User 23 - Local Outlier Factor: One-Class SVM ROC AUC: 0.94
+              precision    recall  f1-score      support
+False          0.997013  0.959195  0.977739  1740.000000
+True           0.436508  0.916667  0.591398    60.000000
+accuracy       0.957778  0.957778  0.957778     0.957778
+macro avg      0.716761  0.937931  0.784568  1800.000000
+weighted avg   0.978330  0.957778  0.964861  1800.000000
+[[1669   71]
+ [   5   55]]
+User 24 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 24 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 24 - Isolation Forest: One-Class SVM Accuracy: 68.94%
+User 24 - Isolation Forest: One-Class SVM ROC AUC: 0.79
+              precision    recall  f1-score      support
+False          0.994971  0.682184  0.809410  1740.000000
+True           0.088962  0.900000  0.161919    60.000000
+accuracy       0.689444  0.689444  0.689444     0.689444
+macro avg      0.541966  0.791092  0.485665  1800.000000
+weighted avg   0.964770  0.689444  0.787827  1800.000000
+[[1187  553]
+ [   6   54]]
+User 24 - Local Outlier Factor: One-Class SVM Accuracy: 97.89%
+User 24 - Local Outlier Factor: One-Class SVM ROC AUC: 0.94
+              precision    recall  f1-score      support
+False          0.996499  0.981609  0.988998  1740.000000
+True           0.627907  0.900000  0.739726    60.000000
+accuracy       0.978889  0.978889  0.978889     0.978889
+macro avg      0.812203  0.940805  0.864362  1800.000000
+weighted avg   0.984213  0.978889  0.980689  1800.000000
+[[1708   32]
+ [   6   54]]
+User 25 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 25 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 25 - Isolation Forest: One-Class SVM Accuracy: 86.61%
+User 25 - Isolation Forest: One-Class SVM ROC AUC: 0.88
+              precision    recall  f1-score      support
+False          0.996029  0.864943  0.925869  1740.000000
+True           0.186851  0.900000  0.309456    60.000000
+accuracy       0.866111  0.866111  0.866111     0.866111
+macro avg      0.591440  0.882471  0.617662  1800.000000
+weighted avg   0.969057  0.866111  0.905322  1800.000000
+[[1505  235]
+ [   6   54]]
+User 25 - Local Outlier Factor: One-Class SVM Accuracy: 96.78%
+User 25 - Local Outlier Factor: One-Class SVM ROC AUC: 0.94
+              precision    recall  f1-score      support
+False          0.996458  0.970115  0.983110  1740.000000
+True           0.509434  0.900000  0.650602    60.000000
+accuracy       0.967778  0.967778  0.967778     0.967778
+macro avg      0.752946  0.935057  0.816856  1800.000000
+weighted avg   0.980224  0.967778  0.972026  1800.000000
+[[1688   52]
+ [   6   54]]
+User 26 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 26 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 26 - Isolation Forest: One-Class SVM Accuracy: 79.17%
+User 26 - Isolation Forest: One-Class SVM ROC AUC: 0.84
+              precision    recall  f1-score      support
+False          0.995643  0.787931  0.879692  1740.000000
+True           0.127660  0.900000  0.223602    60.000000
+accuracy       0.791667  0.791667  0.791667     0.791667
+macro avg      0.561651  0.843966  0.551647  1800.000000
+weighted avg   0.966710  0.791667  0.857822  1800.000000
+[[1371  369]
+ [   6   54]]
+User 26 - Local Outlier Factor: One-Class SVM Accuracy: 99.67%
+User 26 - Local Outlier Factor: One-Class SVM ROC AUC: 0.95
+              precision    recall  f1-score      support
+False          0.996564  1.000000  0.998279  1740.000000
+True           1.000000  0.900000  0.947368    60.000000
+accuracy       0.996667  0.996667  0.996667     0.996667
+macro avg      0.998282  0.950000  0.972824  1800.000000
+weighted avg   0.996678  0.996667  0.996582  1800.000000
+[[1740    0]
+ [   6   54]]
+User 27 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 27 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 27 - Isolation Forest: One-Class SVM Accuracy: 57.72%
+User 27 - Isolation Forest: One-Class SVM ROC AUC: 0.73
+              precision    recall  f1-score      support
+False          0.993946  0.566092  0.721347  1740.000000
+True           0.066749  0.900000  0.124281    60.000000
+accuracy       0.577222  0.577222  0.577222     0.577222
+macro avg      0.530347  0.733046  0.422814  1800.000000
+weighted avg   0.963039  0.577222  0.701445  1800.000000
+[[985 755]
+ [  6  54]]
+User 27 - Local Outlier Factor: One-Class SVM Accuracy: 99.50%
+User 27 - Local Outlier Factor: One-Class SVM ROC AUC: 0.95
+              precision    recall  f1-score   support
+False          0.996558  0.998276  0.997416  1740.000
+True           0.947368  0.900000  0.923077    60.000
+accuracy       0.995000  0.995000  0.995000     0.995
+macro avg      0.971963  0.949138  0.960246  1800.000
+weighted avg   0.994918  0.995000  0.994938  1800.000
+[[1737    3]
+ [   6   54]]
+User 28 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 28 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 28 - Isolation Forest: One-Class SVM Accuracy: 90.22%
+User 28 - Isolation Forest: One-Class SVM ROC AUC: 0.90
+              precision    recall  f1-score      support
+False          0.996193  0.902299  0.946924  1740.000000
+True           0.241071  0.900000  0.380282    60.000000
+accuracy       0.902222  0.902222  0.902222     0.902222
+macro avg      0.618632  0.901149  0.663603  1800.000000
+weighted avg   0.971022  0.902222  0.928036  1800.000000
+[[1570  170]
+ [   6   54]]
+User 28 - Local Outlier Factor: One-Class SVM Accuracy: 92.11%
+User 28 - Local Outlier Factor: One-Class SVM ROC AUC: 0.92
+              precision    recall  f1-score      support
+False          0.996891  0.921264  0.957587  1740.000000
+True           0.286458  0.916667  0.436508    60.000000
+accuracy       0.921111  0.921111  0.921111     0.921111
+macro avg      0.641674  0.918966  0.697047  1800.000000
+weighted avg   0.973209  0.921111  0.940217  1800.000000
+[[1603  137]
+ [   5   55]]
+User 29 - One-Class SVM: One-Class SVM Accuracy: 98.00%
+User 29 - One-Class SVM: One-Class SVM ROC AUC: 0.70
+              precision  recall  f1-score  support
+False          0.979730    1.00  0.989761  1740.00
+True           1.000000    0.40  0.571429    60.00
+accuracy       0.980000    0.98  0.980000     0.98
+macro avg      0.989865    0.70  0.780595  1800.00
+weighted avg   0.980405    0.98  0.975817  1800.00
+[[1740    0]
+ [  36   24]]
+User 29 - Isolation Forest: One-Class SVM Accuracy: 98.44%
+User 29 - Isolation Forest: One-Class SVM ROC AUC: 0.94
+              precision    recall  f1-score      support
+False          0.996520  0.987356  0.991917  1740.000000
+True           0.710526  0.900000  0.794118    60.000000
+accuracy       0.984444  0.984444  0.984444     0.984444
+macro avg      0.853523  0.943678  0.893017  1800.000000
+weighted avg   0.986987  0.984444  0.985324  1800.000000
+[[1718   22]
+ [   6   54]]
+User 29 - Local Outlier Factor: One-Class SVM Accuracy: 99.72%
+User 29 - Local Outlier Factor: One-Class SVM ROC AUC: 0.96
+              precision    recall  f1-score      support
+False          0.997135  1.000000  0.998565  1740.000000
+True           1.000000  0.916667  0.956522    60.000000
+accuracy       0.997222  0.997222  0.997222     0.997222
+macro avg      0.998567  0.958333  0.977544  1800.000000
+weighted avg   0.997230  0.997222  0.997164  1800.000000
+[[1740    0]
+ [   5   55]]
